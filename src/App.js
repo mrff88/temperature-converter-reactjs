@@ -41,7 +41,6 @@ function App() {
 
   useEffect(() => {
     if (state.unit) {
-      console.log("useEffect");
       dispatch({ type: state.unit });
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
